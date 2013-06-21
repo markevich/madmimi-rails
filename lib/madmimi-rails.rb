@@ -1,7 +1,3 @@
-require "madmimi/rails/version"
+require 'madmimi/rails/version'
 
-module Madmimi
-  module Rails
-
-  end
-end
+require 'madmimi/rails/delivery_method'
