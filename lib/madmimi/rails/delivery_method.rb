@@ -1,7 +1,5 @@
-module Madmimi
-  module Rails
-    class DeliveryMethod
+class Madmimi::Rails::DeliveryMethod
+  def initialize config = {}
 
-    end
   end
 end
