@@ -6,10 +6,10 @@ require 'madmimi/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "madmimi-rails"
   spec.version       = Madmimi::Rails::VERSION
-  spec.authors       = ["markevich"]
+  spec.authors       = ["Slava Markevich"]
   spec.email         = ["slava.markevich@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{ActionMailer delivery method for sending emails via madmimi}
+  spec.summary       = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
