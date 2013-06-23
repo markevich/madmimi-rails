@@ -1,0 +1,13 @@
+default:
+  email:
+  api_key:
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+
+test:
+  email: 'test@test.com'
+  api_key: 'secret'
