@@ -1,6 +1,6 @@
 # Madmimi::Rails
 
-TODO: Write a gem description
+ActionMailer delivery method for sending emails via madmimi}
 
 ## Installation
 
@@ -8,18 +8,20 @@ Add this line to your application's Gemfile:
 
     gem 'madmimi-rails'
 
-And then execute:
+Execute:
 
     $ bundle
+    
+Run generator:
 
-Or install it yourself as:
+    $ rails g madmimi:rails:install
+    
+Copy ```config/madmimi.yml.template``` to ```config/madmimi.yml```
 
-    $ gem install madmimi-rails
+Change delivery method in your enviroment
 
-## Usage
-
-TODO: Write usage instructions here
-
+    config.action_mailer.delivery_method = :madmimi
+    
 ## Contributing
 
 1. Fork it
