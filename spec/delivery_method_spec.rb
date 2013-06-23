@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'debugger'
 describe DeliveryMethod do
   let(:valid_params) { {api_key: 'api_secret', email: 'test@test.com'} }
   describe '.new' do
@@ -14,5 +15,9 @@ describe DeliveryMethod do
       instance = DeliveryMethod.new(valid_params)
       expect(instance.settings).to be_equal valid_params
     end
+  end
+  describe '#deliver!' do
+    let(:instance) { DeliveryMethod.new(valid_params) }
+    it { expect(instance).to respond_to :deliver! }
   end
 end
