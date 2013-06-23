@@ -1,4 +1,3 @@
-require 'debugger'
 class Madmimi::Rails::Railtie < Rails::Railtie
   initializer 'madmimi-rails.add_delivery_method' do
     begin
