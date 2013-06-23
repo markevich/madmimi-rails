@@ -5,7 +5,7 @@ class Madmimi::Rails::Railtie < Rails::Railtie
     rescue Errno::ENOENT
       settings = {}
     end
-    ActionMailer::Base.add_delivery_method :madmimi, Madmimi::Rails::DeliveryMethod, email: settings[:email], api_key: settings[:api_key]
+    ActionMailer::Base.add_delivery_method :madmimi, Madmimi::Rails::DeliveryMethod, email: settings['email'], api_key: settings['api_key']
   end
 
   generators do
