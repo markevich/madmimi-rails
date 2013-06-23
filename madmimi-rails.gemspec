@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["slava.markevich@gmail.com"]
   spec.description   = %q{ActionMailer delivery method for sending emails via madmimi}
   spec.summary       = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/markevich/madmimi-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
