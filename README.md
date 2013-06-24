@@ -1,6 +1,6 @@
 # Madmimi::Rails
 
-ActionMailer delivery method for sending emails via madmimi}
+ActionMailer delivery method for sending emails via madmimi
 
 ## Installation
 
