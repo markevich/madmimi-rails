@@ -15,7 +15,7 @@ module Madmimi
         options = {
           'promotion_name' => mail.subject,
           'recipients' => mail.to.join(','),
-          'from' => mail.from.join(','),
+          'from' => mail.from,
           'subject' => mail.subject,
           'remove_unsubscribe' => true
         }

@@ -1,5 +1,5 @@
 class Madmimi::Rails::Railtie < Rails::Railtie
-  initializer 'madmimi-rails.add_delivery_method' do
+  initializer 'madmimi.add_delivery_method' do
     begin
       settings = YAML.load_file("#{Rails.root}/config/madmimi.yml")[Rails.env]
     rescue Errno::ENOENT
